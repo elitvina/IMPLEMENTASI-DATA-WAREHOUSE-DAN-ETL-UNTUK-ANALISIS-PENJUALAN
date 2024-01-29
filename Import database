@@ -1,0 +1,6 @@
+USE master;
+GO
+RESTORE DATABASE Staging
+FROM DISK = 'D:\Staging.bak'
+WITH REPLACE;
+GO
